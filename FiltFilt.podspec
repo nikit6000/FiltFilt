@@ -25,7 +25,7 @@ MatLab filtfilt function for swift
   
   s.library = 'c++'
   s.xcconfig = {
-    'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/FiltFilt',
+    'HEADER_SEARCH_PATHS' => '$(PODS_TARGET_SRCROOT)/FiltFilt',
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
     'CLANG_CXX_LIBRARY' => 'libc++'
   }
