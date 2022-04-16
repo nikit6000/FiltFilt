@@ -29,7 +29,7 @@ MatLab filtfilt function for swift
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
     'CLANG_CXX_LIBRARY' => 'libc++'
   }
-  s.preserve_paths = [ 'Eigen/*', 'Eigen/**/*']
+  s.preserve_paths = [ 'FiltFilt/Eigen/*', 'FiltFilt/Eigen/**/*']
   s.frameworks = 'Foundation'
   
 end
