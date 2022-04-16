@@ -1,0 +1,37 @@
+{
+  "name": "FiltFilt",
+  "version": "0.1.0",
+  "summary": "MatLab filtfilt function for swift",
+  "description": "MatLab filtfilt function for swift",
+  "homepage": "https://github.com/nikit6000/FiltFilt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nikit6000": "tarkhov.nik@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nikit6000/FiltFilt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "FiltFilt/Classes/**/*.swift",
+    "FiltFilt/Classes/**/*.cpp",
+    "FiltFilt/Classes/**/*.h"
+  ],
+  "libraries": "c++",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/FiltFilt",
+    "CLANG_CXX_LANGUAGE_STANDARD": "c++14",
+    "CLANG_CXX_LIBRARY": "libc++"
+  },
+  "preserve_paths": [
+    "Eigen/*",
+    "Eigen/**/*"
+  ],
+  "frameworks": "Foundation"
+}

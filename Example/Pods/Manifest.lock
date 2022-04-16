@@ -1,0 +1,16 @@
+PODS:
+  - FiltFilt (0.1.0)
+
+DEPENDENCIES:
+  - FiltFilt (from `../`)
+
+EXTERNAL SOURCES:
+  FiltFilt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FiltFilt: 717170b363a875cafa46f8a4f74a2bfc7d546204
+
+PODFILE CHECKSUM: 7b5750aefbea194239a83eba414a11e01fcb23b4
+
+COCOAPODS: 1.10.1

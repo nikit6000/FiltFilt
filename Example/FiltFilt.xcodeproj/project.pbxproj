@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		895554FF98A92E8E6383D539 /* Pods_FiltFilt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16930CE57690754A4C09BE8 /* Pods_FiltFilt_Example.framework */; };
 		9997FD5FD6EEFF13AEAE29DF /* Pods_FiltFilt_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8268C4BECA96CFDC796FE06 /* Pods_FiltFilt_Tests.framework */; };
+		CF09E88C280B077D000C6F6A /* RawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09E88B280B077D000C6F6A /* RawData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +40,15 @@
 		607FACE51AFB9204008FA782 /* FiltFilt_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiltFilt_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8019ED1A62D1E8D60A34EAE5 /* FiltFilt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FiltFilt.podspec; path = ../FiltFilt.podspec; sourceTree = "<group>"; };
-		A376A1F41943FCAF4F9FA8F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8019ED1A62D1E8D60A34EAE5 /* FiltFilt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FiltFilt.podspec; path = ../FiltFilt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A376A1F41943FCAF4F9FA8F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B0376780F3B74178E2145B34 /* Pods-FiltFilt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiltFilt_Example.debug.xcconfig"; path = "Target Support Files/Pods-FiltFilt_Example/Pods-FiltFilt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B16930CE57690754A4C09BE8 /* Pods_FiltFilt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiltFilt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7588B2D51886B41E2299AA /* Pods-FiltFilt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiltFilt_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FiltFilt_Tests/Pods-FiltFilt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF09E88B280B077D000C6F6A /* RawData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawData.swift; sourceTree = "<group>"; };
 		D0F0909338B20A7DB0001E0D /* Pods-FiltFilt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FiltFilt_Example.release.xcconfig"; path = "Target Support Files/Pods-FiltFilt_Example/Pods-FiltFilt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8268C4BECA96CFDC796FE06 /* Pods_FiltFilt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FiltFilt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8DD5FA16863464760A601C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F8DD5FA16863464760A601C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for FiltFilt */ = {
 			isa = PBXGroup;
 			children = (
+				CF09E88B280B077D000C6F6A /* RawData.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,7 +150,6 @@
 				CD7588B2D51886B41E2299AA /* Pods-FiltFilt_Tests.debug.xcconfig */,
 				0AD6007E78FBDE7A5895BDD9 /* Pods-FiltFilt_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF09E88C280B077D000C6F6A /* RawData.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
